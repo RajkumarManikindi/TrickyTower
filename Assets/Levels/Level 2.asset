@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3740056ae348a438285db0e085ea2bea, type: 3}
+  m_Name: Level 2
+  m_EditorClassIdentifier: 
+  leftAndRightMoveSpeed: 0.5
+  fallingDownSpeed: 0.05
+  fallingDownBoostSpeed: 3
+  rotateAngle: 90
+  totalHeightTarget: 40
+  totalLives: 5
+  pieceInfos:
+  - name: L
+    piecePrefab: {fileID: 1920193411056613843, guid: 0c50c57ceda1f4a1bbd57e5f4a78f3e8, type: 3}
+    width: 2
+    height: 3
+    limitForMove: 6
+    piecePhysicsProperties:
+      friction: 1
+      bounce: 0
+      mass: 1
+      gravity: 0
+      angularDrag: 0
+      linearDrag: 0
+  - name: N
+    piecePrefab: {fileID: 1920193411056613843, guid: 4318222ffdf1d4ba3b2758f7b6182333, type: 3}
+    width: 2
+    height: 3
+    limitForMove: 6
+    piecePhysicsProperties:
+      friction: 1
+      bounce: 0
+      mass: 1
+      gravity: 0
+      angularDrag: 0
+      linearDrag: 0
+  - name: I
+    piecePrefab: {fileID: 3657190722159398365, guid: c5a91baa64d9846b28b883d26716342e, type: 3}
+    width: 4
+    height: 1
+    limitForMove: 6
+    piecePhysicsProperties:
+      friction: 1
+      bounce: 0
+      mass: 1
+      gravity: 0
+      angularDrag: 0
+      linearDrag: 0
+  - name: S
+    piecePrefab: {fileID: 4682146631907243002, guid: 9713585a6b518444e9134e96414ad852, type: 3}
+    width: 2
+    height: 2
+    limitForMove: 6
+    piecePhysicsProperties:
+      friction: 1
+      bounce: 0
+      mass: 1
+      gravity: 0
+      angularDrag: 0
+      linearDrag: 0
+  - name: T
+    piecePrefab: {fileID: 4682146631907243002, guid: 22c39770f0ed14bb3a3d46d607177f5d, type: 3}
+    width: 3
+    height: 2
+    limitForMove: 6
+    piecePhysicsProperties:
+      friction: 1
+      bounce: 0
+      mass: 1
+      gravity: 0
+      angularDrag: 0
+      linearDrag: 0
